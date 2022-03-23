@@ -1,0 +1,21 @@
+- //factorial number 
+package factoryal_2;
+
+import java.util.Scanner;
+
+public class Factoryal_2 {
+
+    public static void main(String[] args) {
+       Scanner input = new Scanner(System.in);
+        System.out.println("inter your number");
+       int Nu;
+       Nu = input.nextInt();
+       int i;
+       int fact;
+       fact = 1;
+       for(i=1;i<=Nu;i++){
+            fact=fact*i;
+    }System.out.println("this number"+fact);
+    
+}
+}
